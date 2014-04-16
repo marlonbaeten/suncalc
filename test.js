@@ -1,3 +1,7 @@
+'use strict';
+
+/* eslint quotes: [1, "single"], curly: [1, "multi"], no-global-strict: 0 */
+/* eslint-env node */
 
 var SunCalc = require('./suncalc'),
     t = require('tape');

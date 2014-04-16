@@ -23,15 +23,11 @@
   "devDependencies": {
     "tape": "^2.12.3",
     "jshint": "^2.5.0",
-    "faucet": "0.0.1"
+    "faucet": "0.0.1",
+    "eslint": "^0.5.0"
   },
   "scripts": {
     "test": "jshint suncalc.js test.js && node test.js | faucet",
     "cov": "istanbul cover test.js -x test.js"
-  },
-  "jshintConfig": {
-    "quotmark": "single",
-    "trailing": true,
-    "unused": true
   }
 }

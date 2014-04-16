@@ -6,6 +6,9 @@
 
 (function () { 'use strict';
 
+/* eslint quotes: [1, "single"], curly: [1, "multi"] */
+/* eslint-env browser, node, amd */
+
 // shortcuts for easier to read formulas
 
 var PI   = Math.PI,
